@@ -21,6 +21,8 @@
 		"@typescript-eslint/eslint-plugin": "^6.1.0",
 		"@typescript-eslint/parser": "^6.1.0",
 		"autoprefixer": "^10.4.14",
+		"dotenv": "^16.3.1",
+		"drizzle-kit": "^0.19.10",
 		"eslint": "^8.45.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-svelte": "^2.32.3",
@@ -37,8 +39,11 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@planetscale/database": "^1.8.0",
 		"@trpc/client": "^10.35.0",
 		"@trpc/server": "^10.35.0",
+		"drizzle-orm": "^0.27.2",
+		"postgres": "^3.3.5",
 		"trpc-sveltekit": "^3.5.17"
 	}
 }
