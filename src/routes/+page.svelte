@@ -13,9 +13,10 @@
 	loadData();
 </script>
 
-<h1>Welcome to The Next Page</h1>
+<h1 class="text-blue-700 text-5xl">Welcome to The Next Page</h1>
+<br>
 
-<p>The server sends you this picture!</p>
+<p>The server sends you this picture before loading the page!</p>
 <img src={data.link} alt="Cat"/>
 
 <p>TRPC says {greeting}</p>
