@@ -8,3 +8,6 @@ The Next Page is a website to find peer reviews on books. This is the search par
 Svelte is a Javascript Framework. A framework has prebuilt libraries, components, and API to create a website easily. You can learn Svelte [here](https://learn.svelte.dev). (You don't need to learn Part 2 if you don't want to.)
 
 SvelteKit is a framework that combines serverside and clientside code in one place with Svelte. It is similar to Next.js. If you don't know SvelteKit but know Svelte, skip to Part 3 at https://learn.svelte.dev.
+
+# tRPC
+tRPC is a way to create your api. Unlike other ways, where you would have to use a fetch call and not know the type, tRPC gives type safety to the frontend.
