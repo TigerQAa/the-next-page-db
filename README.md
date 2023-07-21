@@ -43,3 +43,7 @@ This can easily get out of hand in bigger projects. With Tailwind, instead of wr
 ```
 
 Instead of writing classes and then use them, you just use the properties themselves. You can search for how to do things at the docs [here](https://tailwindcss.com/docs).
+
+# Drizzle
+
+Drizzle is an ORM (connects code to database). Drizzle docs are [here](https://orm.drizzle.team/).
