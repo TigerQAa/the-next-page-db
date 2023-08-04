@@ -43,7 +43,6 @@
 		"@trpc/client": "^10.35.0",
 		"@trpc/server": "^10.35.0",
 		"drizzle-orm": "^0.27.2",
-		"postgres": "^3.3.5",
 		"trpc-sveltekit": "^3.5.17"
 	}
 }
