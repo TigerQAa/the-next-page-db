@@ -8,6 +8,6 @@ export const authorRouter = t.router({
 				name: true
 			}
 		});
-		return author?.name
+		return author?.name;
 	})
 });

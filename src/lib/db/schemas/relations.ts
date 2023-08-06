@@ -14,7 +14,7 @@ export const bookRelations = relations(books, ({ one, many }) => ({
 		fields: [books.genreId],
 		references: [genres.id]
 	}),
-	booksToReviews: many(booksToReviews),
+	booksToReviews: many(booksToReviews)
 }));
 
 export const catagoriesRelations = relations(catagories, ({ many }) => ({

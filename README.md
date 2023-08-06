@@ -1,4 +1,3 @@
-
 # The Next Page DB
 
 The Next Page is a website to find peer reviews on books. This is the search part of The Next Page. This README will explain the tech stack and how the project works. This is currently a WIP until most of the website is finished.
@@ -10,6 +9,7 @@ Svelte is a Javascript Framework. A framework has prebuilt libraries, components
 SvelteKit is a framework that combines serverside and clientside code in one place with Svelte. It is similar to Next.js. If you don't know SvelteKit but know Svelte, skip to Part 3 at https://learn.svelte.dev.
 
 # tRPC
+
 tRPC is a way to create your api. Unlike other ways, where you would have to use a fetch call and not know the type, tRPC gives type safety to the frontend. tRPC documentation is [here](https://trpc.io/docs/quickstart).
 
 # TailwindCSS
@@ -26,7 +26,7 @@ You would write a class in a css file like this:
 
 ```css
 .press-button {
-	background-color: rgb(52 211 153)
+	background-color: rgb(52 211 153);
 }
 ```
 

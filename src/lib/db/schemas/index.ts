@@ -1,11 +1,4 @@
-import {
-	mysqlTable,
-	unique,
-	serial,
-	varchar,
-	int,
-	primaryKey
-} from "drizzle-orm/mysql-core";
+import { mysqlTable, unique, serial, varchar, int, primaryKey } from "drizzle-orm/mysql-core";
 
 export const authors = mysqlTable(
 	"authors",
@@ -40,12 +33,16 @@ export const booksToReviews = mysqlTable(
 	})
 );
 
-export const catagories = mysqlTable("catagories", {
-	id: serial("id").primaryKey().notNull().autoincrement(),
-	name: varchar("name", { length: 256 }).notNull()
-}, (table) => ({
-	nameIdx: unique("name_idx").on(table.name)
-}));
+export const catagories = mysqlTable(
+	"catagories",
+	{
+		id: serial("id").primaryKey().notNull().autoincrement(),
+		name: varchar("name", { length: 256 }).notNull()
+	},
+	(table) => ({
+		nameIdx: unique("name_idx").on(table.name)
+	})
+);
 
 export const genres = mysqlTable(
 	"genres",
